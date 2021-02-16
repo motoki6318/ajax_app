@@ -17,7 +17,7 @@ function memo() {
       const HTML = `
         <div class="post" data-id=${item.id}>
           <div class="post-date">
-            投稿日時：${item.created_at}
+            日付：${item.created_at}
           </div>
           <div class="post-content">
           ${item.content}
